@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Filmes</title>
+</head>
+<body>
+    <h1> Top Filmes </h1>
+    <h3> Novo Diretor </h3>
+
+
+    <form enctype="multipart/form-data" action="diretor-gravar.php" method="POST">
+
+        <label for="nome"> Nome : </label>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+
+        <label for="minibio">Mini Bio : </label><br>
+        <textarea type="text" name="minibio" id="minibio" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <label for="ano_nascimento">Ano de Nascimento : </label>
+        <input type="number" name="ano_nascimento" id="ano_nascimento"> 
+        <br><br>
+
+        
+               
+        <input type="submit" value="Gravar">        
+    </form>
+    <br><br>
+    <a href="diretor-listar.php"><button>Listar</button></a>
+    
+    
+</body>
+</html>
