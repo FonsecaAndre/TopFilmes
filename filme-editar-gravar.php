@@ -12,7 +12,7 @@
     $filme->ano_lancamento = $_POST['ano_lancamento'];
     $filme->duracao = $_POST['duracao'];
     $filme->nota_imdb = $_POST['nota_imdb'];
-    $filme->diretor_id = $_POST['seldiretor'];
+   $filme->diretor_id = $_POST['seldiretor'];
     
 
 

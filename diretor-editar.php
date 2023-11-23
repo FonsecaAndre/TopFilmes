@@ -26,7 +26,7 @@ $diretor = new Diretor($id);
         <input type="text" name="minibio" value="<?= $diretor->minibio ?>">
         <br><br>
 
-        <label for="ano_nascimento">Ano de ano_nascimento : </label>
+        <label for="ano_nascimento">Ano de Nascimento : </label>
         <input type="number" name="ano_nascimento" value="<?= $diretor->ano_nascimento ?>">
         <br><br>
 

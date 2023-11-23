@@ -37,12 +37,12 @@ class Filme{
         //Atribuição dos valores dos campos da turma recuperados do banco ás propriedades do objeto
         $this->id = $linha['id'];
         $this->titulo = $linha['titulo'];
-        $this->img_cartaz = $linha['imgcartaz'];
+        $this->img_cartaz = $linha['img_cartaz'];
         $this->sinopse = $linha['sinopse'];
         $this->ano_lancamento = $linha['ano_lancamento'];
         $this->duracao = $linha['duracao'];
         $this->nota_imdb = $linha['nota_imdb'];        
-        $this->$diretor_id = $linha['fk_diretor_id'];
+        $this->diretor_id = $linha['fk_diretor_id'];
     } 
     
     
