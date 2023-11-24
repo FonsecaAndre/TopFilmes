@@ -23,7 +23,7 @@ $diretor = new Diretor($id);
         <br><br>
 
         <label for="minibio">Mini Bio : </label>
-        <input type="text" name="minibio" value="<?= $diretor->minibio ?>">
+        <textarea type="text" id="minibio" name="minibio" rows="4" cols="30"><?= $diretor->minibio ?></textarea>
         <br><br>
 
         <label for="ano_nascimento">Ano de Nascimento : </label>
